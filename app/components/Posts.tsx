@@ -1,6 +1,9 @@
 import { getSortedPostsData } from "@/lib/posts"
 import ListItem from "./ListItem"
 
+
+
+
 export default function Posts() {
 
     const posts = getSortedPostsData()
@@ -16,3 +19,4 @@ export default function Posts() {
 </section>
   )
 }
+ 
